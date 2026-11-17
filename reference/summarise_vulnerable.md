@@ -1,7 +1,7 @@
 # Summarise crashes involving vulnerable road users
 
 Applies
-[`summarise_crashes()`](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/summarise_crashes.md)
+[`summarise_crashes()`](https://eduvit.github.io/roadcrashVIC/reference/summarise_crashes.md)
 to all crashes, and to the crashes involving a pedestrian, a cyclist or
 a motorcyclist.
 
@@ -16,15 +16,15 @@ summarise_vulnerable(data)
 - data:
 
   A data frame of crashes, such as
-  [vic_crashes](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/vic_crashes.md),
+  [vic_crashes](https://eduvit.github.io/roadcrashVIC/reference/vic_crashes.md),
   optionally filtered with
-  [`filter_crashes()`](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/filter_crashes.md).
+  [`filter_crashes()`](https://eduvit.github.io/roadcrashVIC/reference/filter_crashes.md).
 
 ## Value
 
 A tibble with four rows (`All crashes`, `Pedestrian`, `Cyclist`,
 `Motorcyclist`): a `road_user` column, then the columns of
-[`summarise_crashes()`](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/summarise_crashes.md).
+[`summarise_crashes()`](https://eduvit.github.io/roadcrashVIC/reference/summarise_crashes.md).
 
 ## Examples
 

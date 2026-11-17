@@ -83,7 +83,7 @@ A tibble with 202,065 rows and 51 columns:
 - lga_name:
 
   (character) Local government area (LGA), spelled as in
-  [vic_lga](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/vic_lga.md).
+  [vic_lga](https://eduvit.github.io/roadcrashVIC/reference/vic_lga.md).
 
 - dtp_region:
 
@@ -240,6 +240,6 @@ October 2026; retrieved 25 October 2026.
 column names; added `year`, `month`, `hour`, `road_full_name` and the
 `involves_*` columns; converted categories to factors; set `Unk.`,
 `Unknown` and `Not known` to `NA`; matched LGA names to
-[vic_lga](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/vic_lga.md);
+[vic_lga](https://eduvit.github.io/roadcrashVIC/reference/vic_lga.md);
 removed `ACCIDENT_TIME`, `VICGRID_X`, `VICGRID_Y`, `ROAD_ROUTE_1`,
 `ROAD_NAME`, `ROAD_TYPE`, `DCA_CODE` and `SRNS`.

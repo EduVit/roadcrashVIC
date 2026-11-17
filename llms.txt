@@ -4,8 +4,7 @@
 in Victoria, Australia, from 2012 to 2025: how they have changed over
 time, where and when they happen, and who is involved.
 
-Documentation website:
-<https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/>
+Documentation website: <https://eduvit.github.io/roadcrashVIC/>
 
 ## Intended user and question
 
@@ -33,7 +32,7 @@ The package requires R 4.1.0 or later. Install it from GitHub with:
 ``` r
 
 # install.packages("remotes")
-remotes::install_github("ETC5523-2026/etc5523-assignment-4-eduvit")
+remotes::install_github("EduVit/roadcrashVIC")
 ```
 
 ## Launching the app
@@ -67,7 +66,7 @@ show only the areas and the crashes.
 All sources are licensed under [CC BY
 4.0](https://creativecommons.org/licenses/by/4.0/); the changes made are
 listed on each help page, for example
-[`?vic_crashes`](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/vic_crashes.md).
+[`?vic_crashes`](https://eduvit.github.io/roadcrashVIC/reference/vic_crashes.md).
 
 ## License
 
@@ -102,31 +101,31 @@ scripts.
 
 ## Launch the app
 
-- [`run_app()`](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/run_app.md)
+- [`run_app()`](https://eduvit.github.io/roadcrashVIC/reference/run_app.md)
   : Launch the Victorian road crash app
 
 ## Data
 
-- [`vic_crashes`](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/vic_crashes.md)
+- [`vic_crashes`](https://eduvit.github.io/roadcrashVIC/reference/vic_crashes.md)
   : Victorian road crashes resulting in casualties, 2012 to 2025
-- [`vic_lga`](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/vic_lga.md)
+- [`vic_lga`](https://eduvit.github.io/roadcrashVIC/reference/vic_lga.md)
   : Victorian local government area boundaries
-- [`vic_population`](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/vic_population.md)
+- [`vic_population`](https://eduvit.github.io/roadcrashVIC/reference/vic_population.md)
   : Estimated resident population of Victorian local government areas
 
 ## Functions
 
-- [`filter_crashes()`](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/filter_crashes.md)
+- [`filter_crashes()`](https://eduvit.github.io/roadcrashVIC/reference/filter_crashes.md)
   : Filter crashes to a date range
-- [`summarise_crashes()`](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/summarise_crashes.md)
+- [`summarise_crashes()`](https://eduvit.github.io/roadcrashVIC/reference/summarise_crashes.md)
   : Summarise crashes and casualties by one or more variables
-- [`crash_rates()`](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/crash_rates.md)
+- [`crash_rates()`](https://eduvit.github.io/roadcrashVIC/reference/crash_rates.md)
   : Crash and casualty rates per 100,000 residents
-- [`summarise_vulnerable()`](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/summarise_vulnerable.md)
+- [`summarise_vulnerable()`](https://eduvit.github.io/roadcrashVIC/reference/summarise_vulnerable.md)
   : Summarise crashes involving vulnerable road users
 
 # Articles
 
 ### All vignettes
 
-- [roadcrashVIC](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/articles/roadcrashVIC.md):
+- [roadcrashVIC](https://eduvit.github.io/roadcrashVIC/articles/roadcrashVIC.md):

@@ -15,9 +15,9 @@ summarise_crashes(data, by)
 - data:
 
   A data frame of crashes, such as
-  [vic_crashes](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/vic_crashes.md),
+  [vic_crashes](https://eduvit.github.io/roadcrashVIC/reference/vic_crashes.md),
   optionally filtered with
-  [`filter_crashes()`](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/filter_crashes.md).
+  [`filter_crashes()`](https://eduvit.github.io/roadcrashVIC/reference/filter_crashes.md).
 
 - by:
 

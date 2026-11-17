@@ -19,7 +19,7 @@ The package requires R 4.1.0 or later and is installed from GitHub:
 ``` r
 
 # install.packages("remotes")
-remotes::install_github("ETC5523-2026/etc5523-assignment-4-eduvit")
+remotes::install_github("EduVit/roadcrashVIC")
 ```
 
 ``` r
@@ -53,16 +53,16 @@ resident population of each local government area (LGA) by year, and
 `vic_lga`, the LGA boundaries. All three come from Victorian Government
 and Australian Bureau of Statistics sources under the CC BY 4.0 licence.
 Their help pages
-([`?vic_crashes`](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/vic_crashes.md),
-[`?vic_population`](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/vic_population.md),
-[`?vic_lga`](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/vic_lga.md))
+([`?vic_crashes`](https://eduvit.github.io/roadcrashVIC/reference/vic_crashes.md),
+[`?vic_population`](https://eduvit.github.io/roadcrashVIC/reference/vic_population.md),
+[`?vic_lga`](https://eduvit.github.io/roadcrashVIC/reference/vic_lga.md))
 describe every column and the changes made to the original files.
 
 ## The functions
 
 ### Filtering by date: `filter_crashes()`
 
-[`filter_crashes()`](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/filter_crashes.md)
+[`filter_crashes()`](https://eduvit.github.io/roadcrashVIC/reference/filter_crashes.md)
 keeps the crashes between two dates, both included:
 
 ``` r
@@ -76,7 +76,7 @@ nrow(crashes_2025)
 
 ### Summarising by any variable: `summarise_crashes()`
 
-[`summarise_crashes()`](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/summarise_crashes.md)
+[`summarise_crashes()`](https://eduvit.github.io/roadcrashVIC/reference/summarise_crashes.md)
 counts crashes and people killed and injured in each group, and the same
 casualties per 1,000 crashes. KSI stands for people killed or seriously
 injured.
@@ -105,7 +105,7 @@ together, for example `by = c("day_of_week", "hour")`.
 ### Rates per resident: `crash_rates()`
 
 Areas with more residents usually have more crashes.
-[`crash_rates()`](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/crash_rates.md)
+[`crash_rates()`](https://eduvit.github.io/roadcrashVIC/reference/crash_rates.md)
 adds the population and the yearly rates per 100,000 residents, which
 make years or LGAs of different sizes comparable:
 
@@ -137,9 +137,9 @@ of the data.
 
 ### Vulnerable road users: `summarise_vulnerable()`
 
-[`summarise_vulnerable()`](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/summarise_vulnerable.md)
+[`summarise_vulnerable()`](https://eduvit.github.io/roadcrashVIC/reference/summarise_vulnerable.md)
 applies
-[`summarise_crashes()`](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/summarise_crashes.md)
+[`summarise_crashes()`](https://eduvit.github.io/roadcrashVIC/reference/summarise_crashes.md)
 to all crashes and to the crashes involving a pedestrian, a cyclist or a
 motorcyclist:
 

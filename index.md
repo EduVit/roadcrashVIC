@@ -4,8 +4,7 @@
 in Victoria, Australia, from 2012 to 2025: how they have changed over
 time, where and when they happen, and who is involved.
 
-Documentation website:
-<https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/>
+Documentation website: <https://eduvit.github.io/roadcrashVIC/>
 
 ## Intended user and question
 
@@ -33,7 +32,7 @@ The package requires R 4.1.0 or later. Install it from GitHub with:
 ``` r
 
 # install.packages("remotes")
-remotes::install_github("ETC5523-2026/etc5523-assignment-4-eduvit")
+remotes::install_github("EduVit/roadcrashVIC")
 ```
 
 ## Launching the app
@@ -67,7 +66,7 @@ show only the areas and the crashes.
 All sources are licensed under [CC BY
 4.0](https://creativecommons.org/licenses/by/4.0/); the changes made are
 listed on each help page, for example
-[`?vic_crashes`](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/vic_crashes.md).
+[`?vic_crashes`](https://eduvit.github.io/roadcrashVIC/reference/vic_crashes.md).
 
 ## License
 

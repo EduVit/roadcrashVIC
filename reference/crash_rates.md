@@ -2,7 +2,7 @@
 
 Adds the population and the number of crashes and casualties per 100,000
 residents per year to
-[`summarise_crashes()`](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/summarise_crashes.md).
+[`summarise_crashes()`](https://eduvit.github.io/roadcrashVIC/reference/summarise_crashes.md).
 Groups that cover several years use the population summed over those
 years.
 
@@ -17,14 +17,14 @@ crash_rates(data, population, by = "year")
 - data:
 
   A data frame of crashes, such as
-  [vic_crashes](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/vic_crashes.md),
+  [vic_crashes](https://eduvit.github.io/roadcrashVIC/reference/vic_crashes.md),
   optionally filtered with
-  [`filter_crashes()`](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/filter_crashes.md).
+  [`filter_crashes()`](https://eduvit.github.io/roadcrashVIC/reference/filter_crashes.md).
 
 - population:
 
   A data frame of population by `year` and `lga_name`, such as
-  [vic_population](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/vic_population.md).
+  [vic_population](https://eduvit.github.io/roadcrashVIC/reference/vic_population.md).
 
 - by:
 
@@ -33,7 +33,7 @@ crash_rates(data, population, by = "year")
 ## Value
 
 The columns of
-[`summarise_crashes()`](https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/reference/summarise_crashes.md),
+[`summarise_crashes()`](https://eduvit.github.io/roadcrashVIC/reference/summarise_crashes.md),
 plus:
 
 - `population`:
