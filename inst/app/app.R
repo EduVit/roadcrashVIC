@@ -467,6 +467,12 @@ server <- function(input, output, session){
       ) |>
       addLegend(pal = pal, values = ~value, title = vic_label(), na.label = "No value", opacity=0.8)
   })
+  # Shinylive can draw the map before its card has its final size:
+  # fit Victoria again once, when the map has loaded
+  observeEvent(input$vic_map_zoom, once = TRUE, {
+    leafletProxy("vic_map") |>
+      fitBounds(vic_bounds[["xmin"]], vic_bounds[["ymin"]], vic_bounds[["xmax"]], vic_bounds[["ymax"]])
+  })
 
   # "My area" tab
   ## "Clear LGAs" button
