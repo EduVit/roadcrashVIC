@@ -70,8 +70,11 @@ listed on each help page, for example
 
 ## License
 
-The package code is released under the MIT license (see `LICENSE.md`).
-The data remains under the CC BY 4.0 license of its sources.
+The package code is released under the GNU Affero General Public License
+v3 (AGPL-3, see LICENSE.md). You can use, modify and share it; if you
+share or host a modified version, its source code must be released under
+the same licence. The data remains under the CC BY 4.0 licence of its
+sources.
 
 ## Generative AI declaration
 
