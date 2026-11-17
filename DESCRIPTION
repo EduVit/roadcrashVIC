@@ -15,6 +15,7 @@ RoxygenNote: 8.0.0
 Depends: 
     R (>= 4.1.0)
 LazyData: true
+LazyDataCompression: xz
 URL: https://github.com/EduVit/roadcrashVIC, https://eduvit.github.io/roadcrashVIC
 BugReports: https://github.com/EduVit/roadcrashVIC/issues
 Imports: 
