@@ -23,7 +23,7 @@ The package requires R 4.1.0 or later and is installed from GitHub:
 
 ```{r, eval = FALSE}
 # install.packages("remotes")
-remotes::install_github("ETC5523-2026/etc5523-assignment-4-eduvit")
+remotes::install_github("EduVit/roadcrashVIC")
 ```
 
 ```{r}

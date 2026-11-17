@@ -5,7 +5,7 @@
 
 `roadcrashVIC` is an R package and Shiny app for exploring road crashes in Victoria, Australia, from 2012 to 2025: how they have changed over time, where and when they happen, and who is involved.
 
-Documentation website: <https://etc5523-2026.github.io/etc5523-assignment-4-eduvit/>
+Documentation website: <https://eduvit.github.io/roadcrashVIC/>
 
 ## Intended user and question
 
@@ -23,7 +23,7 @@ The package requires R 4.1.0 or later. Install it from GitHub with:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("ETC5523-2026/etc5523-assignment-4-eduvit")
+remotes::install_github("EduVit/roadcrashVIC")
 ```
 
 ## Launching the app
