@@ -128,6 +128,12 @@ ui <- page_navbar(
   header = div(
     class = "app-intro",
     includeCSS("styles.css"),
+    # Shinylive only: load plotly and crosstalk with the page, otherwise charts drawn
+    # together at startup stay empty (known bug: github.com/posit-dev/r-shinylive/issues/124)
+    if (R.version$os == "emscripten") tagList(
+      tags$script(src = "https://cdn.jsdelivr.net/gh/rstudio/crosstalk@v1.2.2/inst/www/js/crosstalk.min.js"),
+      tags$script(src = "https://cdn.plot.ly/plotly-2.25.2.min.js")
+    ),
     p(
       class = "mb-1",
       strong(paste0(
